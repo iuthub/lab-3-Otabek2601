@@ -1,26 +1,25 @@
 *{
 	box-sizing: border-box;
- }
-
-.topnav{	
-	background-color: #A8F0F0; 
-	overflow:hidden; 
-	clear:both;
 }
 
-.container{
-	border: 10px white solid;
-	background-color: white;
-	align-content: center;
-	margin-left: 10%;
-	margin-right: 10%;
+h2 span{
+  border-bottom: 2px blue dashed;
 }
 
+#top-topnav{
+	font-size:14pt;
+}
 
 body{
 	margin: 0;
 	background-color: white; 
 	background: url("https://courses.cs.washington.edu/courses/cse190m/09sp/labs/2-journal/images/background.gif");
+}
+
+.topnav{	
+	background-color: #A8F0F0; 
+	overflow:hidden; 
+	clear:both;
 }
 
 .segment{
@@ -29,15 +28,15 @@ body{
 	padding: 5px;
 	margin-top: 10px;
 	overflow:hidden;
-  	
+  	max-width:80%; 
+  	float:right;
 }
 
- .firstword{
-	font-size: 14pt;
-}
-
- h2 span{
-  border-bottom: 2px blue dashed;
+.container{
+	border: 10px white solid;
+	background-color: white;
+	margin: 0 10% 0 10%;
+	overflow: hidden;
 }
 
 .topnav h1, .topnav h2{
@@ -49,8 +48,23 @@ body{
 	float:right;
 }
 
+.leftp{
+	width:15%; 
+	float:left; 
+	height:100%; 
+	border: 4px white solid; 
+	padding:5px; 
+	margin-top:10px; 
+	margin-right:10px;
+  	background:#99e6ff;
+}
+
 .w3{
 	margin-left:10%;
+}
+
+*:hover{
+	background: yellow;
 }
 
 
